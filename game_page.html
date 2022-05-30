@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Guess The Word</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=iAcOUVPUM7hlJAAXx8PJrmKtGjKPW47XOIw0HuUl5_sz2hD0RP026wd3A9JObbi1qeKzT73d6TTd2-iRE1BGZ-1dKSP12d2aV_yMjZbrXqagrpktbb227MNh2wsdlvYU_xW2NKgGdBG9mTF0-XLX6eCzwFtx0mEMO6OI0Q1c8Or7M13_L_puairvaTosMDcMm6KIz-9AVQMpF256x8Pq5bHf0hDdBf1MPPERI7X9zDK6_YXdl1jItidVrdWVIElKlbkRXcnvzVOFzp2nteAu511BZZlgfA7cmC404QmbON6TPoFXRUsi_mvoIqU7I9FcLJJ3tAUskHXCrOjPBB5_yB-5tuuco6lR0TWddklCYZuziQRDdYM9zbmIuIu7PHYVgFIS9f57bzq69Wj0D0v7PMO4JdHSfLzJyCooym02dgrQUMuakxOgx20D6jv94gHKkgXSG3OfwnMonZAFszCzgPQUbXzcom2AeigD8xOBN4p2Ste_stJtPzXx5H9uZJoYLav0V9phya8vV6EZqGhDr2kruHFV0zo7Qje0UoWGeQtbwbfqNyhD_Xtk3czq4Lou3MHbW2wJqfDvtVkBp8J0MnlRD1C1Kel9gd2pWMTrRLxXPv73QK4oMtcgRk5n2BLbMeiYJ0CKSHMpASpScQ5YcNU7IxN-UkP6Y-b4DLRhAZDNGIcBCsgxQSnT3Zn0n2bQn-bbpNS-1ae4jbQyt5XVO9wMNqRR7RvNxAx47ed2826pTo-wH-ZRettye4i2Vjmztpjp5VhO-Pn5lNFvdYRJ3R0Z1HuwQTGhj4OdgNvNNckeGHEv32YnvaNg1APyAlYnHH59LzymVpsT2cbUW3x7z5y8_8fimBXOJYwEcebZvdijA1FzLTCE-LVpru0g3vGoBAYFiPJ-hdIuthswxxW1M8v46JZHmT-osrj9RaH-jUbIp_U72JPlmuxsEq8sdcd4uBhBOvo1oPOtXXNSmDmvMeQWdvlQNIMniNpNTernCiI1fkSqb3_5-eha-aAKIkfdwwb2-mmhHP_4gQ_Sg8SfdA-LbiO32qH24NLyVbtNEP46JbgDgmhtSSTrvJCuA1ccYsF6tpcyzsVj1eOMmoAq00Tsfo3VR9jQbZnKGHRusg9LoMHFE3S2_P-b2qlGQRiKbl2p3B4sg07muA4DWzSHOoePyGqjGNSLFucTL6SO6WJCivejwNeJMXmkiHZmQ1Opc6WYfCQWf3eyZFfw5g95-ns2E9kS152CanUc3HtpcmEu3X-XsypJ9KAJ3k0if7oXB-n7zpDT-buP9F8qfyD1AJhYZEtitBnAU3mmy2oLnTb6P9P1DMeJuuGo2GdHn9gsGWwiFR4Fu8kqnnfFkeaf8U6MMaPNQlqhV-XKpwsJcF389W2LsOiuzW1OedqcwHfMe4tpjSig6KYrI_gdFkltRiauh6Akp8r3b763mnp_HZxlF16KJk0KfJ9vc3_IYjW3" charset="UTF-8"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="game.css">
+</head>
+<body>
+
+<h4 id="player1_name"></h4> <span id="player1_score"></span>
+<br>
+<h4 id="player2_name"></h4> <span id="player2_score"></span>
+
+<div class="container">
+    <center>
+        <h2 style="color: white;">Guess The Word!</h2>
+        <h3 id="player_question"></h3>
+        <h3 id="player_answer"></h3>
+        <div id="output" class="col-lg-6"> </div>
+        <br>
+        <br>
+        <label>Send You Word: <b style="color: red">Try putting word which has 5 or more alphabet
+        </b>
+        </label>
+        <input type="text" id="word" class="form-control" placeholder="Word">
+        <br>
+        <button onclick="send()" class="btn btn-success" style="width: 30%;">Send</button>
+    </center>
+</div>
+
+<script src="game_page.js"></script>
+</body>
+</html>
